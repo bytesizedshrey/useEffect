@@ -9,7 +9,7 @@ const App = () => {
     function () {
       console.log("use effect is running");
     },
-    [],
+    [number,number1],
   );
 
   return (
